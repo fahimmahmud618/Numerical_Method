@@ -27,7 +27,7 @@ int main()
     //printf("Area is : %f\n",area);
     
     double x= (double)a+h;
-    for(int i; i<n-1;i++)
+    for(int i=1; i<n;i++)
     {
        
         area = area+ 2*f(x);
